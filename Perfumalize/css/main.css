@@ -1,0 +1,159 @@
+body{
+  background-color:  #FAEBD7;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 24px;
+  margin: 0;
+  color: #b17f7a;
+}
+
+h1,h2, h3, h4, h5, h6 {  
+  font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#header{position:top;
+    display: block;
+    background-color: rgb(250, 235, 215);
+    float:top; }
+
+#footer{
+  display: block;
+  background-color: rgb(250, 235, 215);
+  float:bottom; 
+  text-align: center;
+}
+
+#analysis{
+  padding: 2rem;
+}
+
+#about{width: 500px;
+  border: 15px ;
+  border-color:;
+  padding: 50px;
+  margin: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  padding-right: 3rem;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.text-content {
+  padding: 2rem;
+  padding-top: 0;
+}
+
+.horizontal-list {
+  list-style: none;
+  display: flex;
+}
+
+.horizontal-list li {
+  padding-right: 3rem;
+}
+
+.External-link{
+  list-style: none;
+  display: flex;
+}
+.External-link li {
+  padding-right: 3rem;
+}
+.card-group .flip-container {
+  margin-right: 1rem;
+}
+
+.card {
+  background-color:  #FAEBD7;
+  padding: .5rem;
+  border: none;
+  transition: box-shadow 300ms ease, transform 300ms ease;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 8px rgb(92 40 40 / 30%);
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border: 3px solid #b17f7a;
+  max-width: 100%;
+  width: auto;
+}
+
+
+/* Flip CSS */
+.flip-container {
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+.flip-container,
+.front,
+.back {
+  width: 300px;
+  height: 600px;
+}
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+.back {
+  transform: rotateY(180deg);
+}
+
+.aboutus{ padding:1rem;
+  text-align: center;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo2{display: block;
+  margin-left: auto;
+  margin-right: auto;}
+
+  .smell{border-radius: 50%;
+  border: solid 10px;}
